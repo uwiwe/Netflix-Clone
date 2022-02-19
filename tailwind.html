@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .background {
+        background: url(https://genotipia.com/mi_content/uploads/2020/04/Netflix-Background-prueba-1.jpg);
+    }
+
+    .overlay {
+        background: rgba(30, 32, 32, 0.82);
+        overflow: hidden;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .h-alto {
+        height: 590px;
+    }
+
+    .background2 {
+        background-color: black;
+    }
+</style>
+<body>
+    <section class="background h-screen">
+        <div class="overlay">
+            <div class="flex justify-between items-center px-10">
+                <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="" class="w-52">
+                <div class="mr-4 text-white">
+                    <button class="mr-8 border border-solid p-1.5 rounded font-bold">🌐Español ▼</button>
+                    <button class="bg-red-600 text-white py-1 px-3 rounded h-9 w-32">
+                        Iniciar sesión
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center text-white mt-32">
+                <div class="text-center">
+                    <h1 class="font-bold mb-2 text-6xl">Películas y series</h1>
+                    <h2 class="font-bold text-6xl">ilimitadas y mucho más.</h2>
+                    <p class="text-2xl mt-6 font-bold">Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <p class="mt-7 text-2xl">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+                    <div class="mt-3">
+                        <input type="text" placeholder="Email" class="w-7/12 h-16 rounded-sm pl-3">
+                        <button class="text-3xl bg-red-600 h-16 rounded-sm w-52">Comenzar ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="background2 border-8 border-y-gray-800 border-x-black">
+        <div class="justify-between">
+            <div class="text-white items-center">
+                <h1 class="text-5xl font-bold mb-4">Disfruta en tu TV.</h1>
+                <h2 class="text-3xl">Ve en smart TV, PlayStation, Xbox,</h2>
+                <h2 class="text-3xl">Chromecast, Apple TV, reproductores de Blu-</h2>
+                <h2 class="text-3xl">ray y más.</h2>
+            <div class="items-end flex justify-items-end justify-end place-content-evenly">
+                <img src="img/tailwind1 imagenes/pantallasection2.png" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
