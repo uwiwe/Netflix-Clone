@@ -25,7 +25,17 @@
 
     .background2 {
         background-color: black;
+        padding-top: 85px;
+        padding-bottom: 1px;
+        padding-left: 140px;
+        padding-right: 100px;
     }
+
+    .section2img {
+        width: 545px;
+        height: 397px;
+    }
+
 </style>
 <body>
     <section class="background h-screen">
@@ -45,7 +55,7 @@
                     <h2 class="font-bold text-6xl">ilimitadas y mucho más.</h2>
                     <p class="text-2xl mt-6 font-bold">Disfruta donde quieras. Cancela cuando quieras.</p>
                     <p class="mt-7 text-2xl">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
-                    <div class="mt-3">
+                    <div class="mt-3 flex items-center justify-center">
                         <input type="text" placeholder="Email" class="w-7/12 h-16 rounded-sm pl-3">
                         <button class="text-3xl bg-red-600 h-16 rounded-sm w-52">Comenzar ></button>
                     </div>
@@ -54,15 +64,15 @@
         </div>
     </section>
     <section class="background2 border-8 border-y-gray-800 border-x-black">
-        <div class="justify-between">
-            <div class="text-white items-center">
+        <div class="justify-around flex items-center px-10">
+            <div class="text-white">
                 <h1 class="text-5xl font-bold mb-4">Disfruta en tu TV.</h1>
                 <h2 class="text-3xl">Ve en smart TV, PlayStation, Xbox,</h2>
                 <h2 class="text-3xl">Chromecast, Apple TV, reproductores de Blu-</h2>
                 <h2 class="text-3xl">ray y más.</h2>
-            <div class="items-end flex justify-items-end justify-end place-content-evenly">
-                <img src="img/tailwind1 imagenes/pantallasection2.png" alt="">
             </div>
+            <div class="section2img">
+                <img src="img/tailwind1 imagenes/pantallasection2.png" alt="">
             </div>
         </div>
     </section>
